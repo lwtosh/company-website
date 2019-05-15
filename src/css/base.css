@@ -1,0 +1,273 @@
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+.container{ 
+  width: 1170px; 
+  max-width: none !important; 
+  }
+  .Box{
+    width: 100%;
+    height: 100%;
+  }
+#mu-header {
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 25px 0;
+  transition: all 0.5s;
+  background: #010020 none repeat scroll 0 0;
+}
+#mu-header img {
+  width: 60%;
+  margin-top: -30px;
+}
+.mu-fixed-nav {
+  background-color: #fff;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 999;
+  background: rgba(16, 30, 44, 0.8) none repeat scroll 0 0;
+}
+.navbar-default {
+  background: none !important;
+  border-color: transparent !important;
+}
+.navbar-default a {
+  color: #fff !important;
+  font-size: 18px !important;
+  padding: 10 20px !important;
+}
+.navbar {
+  border: none;
+  margin-bottom: 0 !important;
+}
+.nav > li > a {
+  padding: 0 !important;
+  margin: 0 30px !important;
+  line-height: 47px !important;
+}
+.nav li a:hover {
+  background-color: transparent;
+  color: orange !important;
+  border-bottom: 2px solid orange;
+}
+.box {
+  background: #010020 none repeat scroll 0 0;
+  margin: auto;
+  margin-right: 100px;
+  width: 880px;
+  position: absolute;
+  z-index: 999;
+  right: 40px;
+  display: none;
+}
+.box ul {
+  margin: auto ;
+}
+.box ul li {
+  float: right;
+  padding: 20px;
+  font-size: 16px;
+}
+.box ul li .box-a {
+  color: #fff;
+}
+.box ul li .box-a:hover {
+  text-decoration: none;
+  color: orange;
+  opacity: 1;
+}
+.bottom {
+  width: 100%;
+  height: 240px;
+  background: url('http://www.yunbaokj.com/public/image/dt.png');
+  background-size: 100% 100%;
+  text-align: center;
+  color: #fff;
+}
+.bottom .huoqu {
+  font-size: 30px;
+  padding-top: 55px;
+}
+.bottom .laioxi {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.footer {
+  background: #5a5f62;
+  color: #aaa;
+}
+.footer .footer-item {
+  width: 800px;
+  margin: auto;
+}
+.footer .footer-item .footer-img {
+  text-align: center;
+  margin: 30px 0;
+}
+.footer .footer-item .left {
+  text-align: center;
+}
+.footer .copy {
+  background: #44484b;
+  line-height: 56px;
+  text-align: center;
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div,
+img,
+header,
+a,
+i {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+#zixun {
+  width: 3rem;
+  height: 5.37rem;
+  position: fixed;
+  top: 6.48rem;
+  right: 1.388rem;
+  z-index: 100;
+}
+*html #zixun {
+  margin-top: 4.77rem;
+  position: absolute;
+  top: 100px;
+}
+#zixun li {
+  width: 3rem;
+  height: 1.11rem;
+}
+#zixun li img {
+  float: right;
+}
+#zixun li a {
+  height: .9rem;
+  float: right;
+  display: block;
+  min-width: .87rem;
+  max-width: 3rem;
+}
+#zixun li a .shows {
+  display: block;
+}
+#zixun li a .hides {
+  margin-right: -2.64rem;
+  cursor: pointer;
+  cursor: hand;
+}
+#zixun li a.weixin_area .hides {
+  display: none;
+  position: absolute;
+  right: 2.64rem;
+}
+#zixun li a.weixin_area .weixin {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0.88rem;
+}
+#p2 {
+  width: 2.07rem;
+  background-color: #A7D2A9;
+  height: .87rem;
+  margin-left: .87rem;
+  border: 1px solid #8BC48D;
+  text-align: center;
+  line-height: 0.87rem;
+}
+#p3 {
+  width: 2.07rem;
+  background-color: #EC9890;
+  height: .87rem;
+  margin-left: .87rem;
+  border: 1px solid #E6776C;
+  text-align: center;
+  line-height: 0.87rem;
+}
+#p1 {
+  width: .87rem;
+  height: .9rem;
+  float: left;
+}
+.weixin {
+  padding: .18rem;
+  display: none;
+  margin: -1.85rem 1rem 0 0;
+}
+.advisory {
+  font-size: .33rem;
+  color: #fff;
+  text-align: center;
+  height: 2.96rem;
+  z-index: 999;
+  position: fixed;
+  width: 7.4rem;
+  display: block;
+  top: 6.48rem;
+  left: 35%;
+  background: url(../images/inviteColorBack0.png) no-repeat;
+}
+.advisory .ad-text {
+    width: 217px;
+    margin: 45px 0 0 162px;
+    text-align: left;
+    font-size: 15px;
+}
+.advisory .remove {
+  font-size:18px;
+  color: #585656;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 400;
+  line-height: 1 !important;
+  cursor: pointer;
+}
+.advisory .now {
+  margin-top: 25px;
+}
+.advisory .now-1,
+.advisory .now-2 {
+  padding:10px 15px;
+  border-radius: .18rem;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.advisory .now-2 {
+  color: #0085da;
+  background: #fff;
+  margin-left: .18rem;
+}

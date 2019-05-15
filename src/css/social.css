@@ -1,0 +1,283 @@
+.fied {
+  background: #2d2b2b;
+}
+.banner {
+  width: 100%;
+  height: 500px;
+  background: url('http://dc.hurongsoft.com/theme/proj_hrsd/images/gamapp/banner.png') no-repeat top center;
+  background-size: cover;
+}
+.p-seletion {
+  width: 100%;
+  height: 100%;
+}
+.p-box {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.p-box .pro-title {
+  margin-bottom: 20px;
+}
+.p-box .pro-title h5 {
+  font-size: 36px;
+  color: #333;
+  font-weight: 500;
+  z-index: 999;
+}
+.p-box .pro-title span {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #888;
+}
+.pro-desc {
+  text-align: left;
+}
+.pro-desc p {
+  text-indent: 32px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+}
+.pro-desc span {
+  font-size: 18px;
+  font-weight: 800;
+  color: #169852;
+}
+.ul {
+  padding-top: 70px;
+  background: #fff;
+  border: solid 1px #e5e5e5;
+}
+.ul li {
+  width: 25%;
+  float: left;
+}
+.ul li img {
+  padding-top: 35px;
+}
+.ul li .gongneng {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+.points {
+  margin-top: 80px;
+}
+.points li {
+  float: left;
+  width: 29%;
+  background: #f5f5f5;
+  margin-left: 40px;
+  text-align: left;
+  height: 200px;
+}
+.points li .P-1 {
+  color: #169852;
+  font-size: 18px;
+  margin: 10px  0 0 10px;
+  font-weight: bold;
+}
+.points li .P-1 b {
+  font-size: 30px;
+}
+.points li .jiejue {
+  width: 350px;
+  height: 155px;
+  background: #fff;
+  padding: 15px 10px;
+  line-height: 25px;
+  margin-left: 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  position: relative;
+  box-shadow: 2px 3px 15px 0px rgba(0, 52, 97, 0.1);
+}
+.points li .jiejue .jie {
+  position: absolute;
+  right: 10px;
+  bottom: 3px;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1;
+  color: rgba(7, 124, 93, 0.08);
+}
+.points li .jiejue .jie .jie-span {
+  margin-top: -3px;
+  margin-left: 20px;
+  display: block;
+  width: 30px;
+  height: 6px;
+  background-color: #78d9a5;
+}
+.points2 li {
+  width: 28%;
+  margin-left: 200px;
+}
+.points3 {
+  border: none;
+  margin-top: 50px;
+}
+.points3 li {
+  width: 33%;
+}
+.points3 li .gongneng {
+  color: #333;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.points3 li p {
+  padding: 0 54px;
+  font-size: 16px;
+  color: #666;
+  line-height: 24px;
+}
+.p-seletion2 {
+  width: 100%;
+  height: 900px;
+}
+.p-seletion2 .imgbox {
+  margin-top: 80px;
+  position: relative;
+}
+.p-seletion2 .imgbox::before,
+.p-seletion2 .imgbox::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 595px;
+  height: 414px;
+  z-index: -1;
+  top: -47px;
+  left: -207px;
+  background: url('http://dc.hurongsoft.com/theme/proj_hrsd/images/gamapp/imgg1.png') no-repeat;
+}
+.p-seletion2 .imgbox::after {
+  top: 297px;
+  left: 823px;
+  background: url('http://dc.hurongsoft.com/theme/proj_hrsd/images/gamapp/imgg2.png') no-repeat;
+}
+.p-seletion3 {
+  background: linear-gradient(90deg, #18b460 0%, #09946f 100%), linear-gradient(#fafafa, #fafafa);
+  width: 100%;
+  height: 900px;
+}
+.p-box1 {
+  width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+.yinglidian {
+  color: #fff;
+  font-size: 36px;
+  padding: 60px 0;
+  text-align: center;
+}
+.yingli-left,
+.yingli-rigth {
+  float: left;
+  height: 659px;
+  background: #fff;
+  padding: 40px;
+  width: 49%;
+}
+.yingli-rigth {
+  float: right;
+}
+.yingli-ul {
+  text-align: left;
+}
+.yingli-ul h6 {
+  font-size: 22px;
+  color: #169852;
+  margin-bottom: 18px;
+}
+.yingli-ul .li-p {
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 36px;
+  color: #333;
+}
+.p-seletion4 {
+  width: 100%;
+  height: 2813px;
+  background: #fff url('http://dc.hurongsoft.com/theme/proj_hrsd/images/numbi/yhbg.png') no-repeat center 244px;
+}
+.p-seletion4 .m-title {
+  color: #333;
+}
+.p-seletion4 span {
+  background: #66afed;
+}
+.waokuang {
+  color: #333;
+  font-size: 36px;
+  text-align: center;
+  padding: 50px 0;
+}
+.fonts {
+  font-size: 16px !important;
+}
+.yingli-ul2 {
+  margin-top: 150px;
+}
+.box4 {
+  width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 110px;
+}
+.box4 .box-left {
+  width: 40%;
+}
+.box4 .box-left h5 {
+  font-size: 24px;
+  color: #333;
+  line-height: 0px;
+}
+.box4 .box-left span {
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background: #66afed;
+}
+.box4 .box-left .box-txt {
+  color: #666;
+  margin-top: 40px;
+  font-size: 18px;
+}
+.box4 .box-right {
+  width: 50%;
+}
+.box4 .box-li {
+  margin-bottom: 20px;
+  margin-top: 59px;
+  margin-left: -102px;
+}
+.p-seletion5 {
+  height: 1100px;
+}
+.p-seletion5 .imgbox2 {
+  margin-top: 80px;
+}
+.m {
+  margin-top: 100px;
+}
+h5 {
+  margin: 0 !important;
+}
+ul {
+  padding: 0 !important;
+}
+p {
+  margin: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}

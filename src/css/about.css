@@ -1,0 +1,120 @@
+.fied {
+  background: #0c0b0bad;
+}
+#mu-header {
+  background: #1d204a none repeat scroll 0 0;
+}
+.box {
+  background: #1d204a;
+}
+
+.company {
+  height: 650px;
+  background: url('../../src/images/star.png') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.company .guanyu {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+}
+.company .company-con {
+  width: 1000px ;
+  margin: auto;
+  position: relative;
+}
+.company .company-con .img {
+  margin: 80px 0 0 -60px;
+}
+.company .company-con .company-item {
+  background: #fff;
+  color: #333;
+  padding: 25px;
+  position: absolute;
+  width: 700px;
+  bottom: -113px;
+  left:50%;
+  margin-left: -261px;
+}
+.company .company-con .company-item .company-h4 {
+  font-size: 26px;
+  font-weight: normal;
+  margin-top: 40px;
+}
+.company .company-con .company-item .company-p {
+  line-height: 30px;
+  font-size: 15px;
+}
+.why {
+  text-align: center;
+}
+.why .w-title {
+  font-size: 40px;
+  color: #333;
+  margin-top: 60px;
+}
+.why .w-p {
+  font-size: 18px;
+  color: #666;
+}
+.why .xian {
+  display: inline-block;
+  width: 400px;
+  height: 1px;
+  background: #ccc;
+  margin-top: 20px;
+}
+.box4 {
+  width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 110px;
+}
+.box4 .Content {
+  margin-top: 150px;
+}
+.box4 .box-left {
+  text-align: left;
+  width: 40%;
+}
+.box4 .box-left h5 {
+  font-size: 24px;
+  color: #333;
+  line-height: 0px;
+}
+.box4 .box-left .p {
+  color: #888;
+}
+.box4 .box-left span {
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background: #66afed;
+}
+.box4 .box-left .box-txt {
+  color: #666;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.box4 .box-left .box-txt .txt {
+  color: #333;
+  font-style: normal;
+}
+.box4 .box-right {
+  width: 50%;
+  margin-top: 70px;
+}
+.box4 .box-li {
+  margin-bottom: 20px;
+  margin-top: 59px;
+  margin-left: -102px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}

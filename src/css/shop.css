@@ -1,0 +1,191 @@
+.banner {
+  width: 100%;
+  height: 700px;
+  background: url(../images/banner2.png) no-repeat;
+  background-size: 100% 100%;
+}
+.banner .banner-box {
+  width: 1200px;
+  text-align: left;
+  margin: auto;
+  padding-left: 40px;
+}
+.banner .banner-box .p1 {
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  padding: 120px 0 20px 0;
+}
+.banner .banner-box .p2 {
+  font-size: 16px;
+  color: #fff;
+}
+.banner .banner-box .p3 {
+  display: inline-block;
+  background: #EEAE1A;
+  padding: 10px 50px ;
+  text-align: center;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.s-section {
+  width: 100%;
+  height: 800px;
+  margin-top: -100px;
+}
+.s-box {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.s-box .s-title {
+  padding: 50px 0;
+}
+.s-box .s-title h5 {
+  font-size: 36px;
+  color: #333;
+}
+.sbox-ul li {
+  float: left;
+  width: 20%;
+  height: 250px;
+  padding: 15px;
+}
+.sbox-ul li h2 {
+  font-size: 20px;
+  line-height: 4;
+  font-weight: 400;
+  margin: 0;
+}
+.sbox-ul li p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #888;
+}
+.sbox-ul .bdrr {
+  border-right: 1px dashed #d0d0d0;
+}
+.sbox-ul .bdrb {
+  border-bottom: 1px dashed #d0d0d0;
+}
+.s-section2 {
+  background: #edf0f5;
+  width: 100%;
+  height: 652px;
+}
+.bg{
+  width: 50%;
+}
+.s-left {
+  float: left;
+  position: relative;
+  width: 40%;
+}
+.s-left > img {
+  position: absolute;
+  top: 61px;
+    right: 136.5px;
+    height: 365px;
+    width: 206px;
+}
+.s-right {
+  float: right;
+  margin-right: 40px;
+  width: 50%;
+}
+.s-right .right-p {
+  font-size: 20px;
+  color: #333;
+  text-align: left;
+  margin: 10px 0;
+}
+.s-right .cont .item {
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 3em;
+  text-align: center;
+}
+.s-right .cont .item p {
+  color: #999;
+  margin-top: 10px;
+}
+.s-section3 {
+  width: 100%;
+  height: 850px;
+}
+.profit {
+  position: relative;
+  margin-top: 50px;
+}
+.profit .title {
+  position: absolute;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+.profit .title .top1 {
+  left: -490px;
+}
+.profit .title .top3 {
+  left: 295px;
+}
+.profit .title .top2 {
+  left: -96px;
+}
+.profit .title .top {
+  top: -30px;
+}
+.profit .title .ps {
+  position: absolute;
+}
+.profit .title .p-bottom {
+  bottom: -40px;
+}
+.profit .title .bottom1 {
+  left: 16%;
+}
+.profit .title .bottom2 {
+  left: 52%;
+}
+.profit .title .bottom3 {
+  left: 84.3333%;
+}
+.profit .top {
+  width: 10rem;
+  margin: 0 auto;
+  height: 72px;
+  position: relative;
+  width: 1200px;
+}
+.profit .profitbg {
+  width: 100%;
+  height: 550px;
+  padding: 30px 0;
+  background: url('../images/pingtaiyingli.png') center center no-repeat;
+}
+.profit .profitbg li {
+  box-sizing: border-box;
+  font-size: 14px;
+  display: block;
+  float: left;
+  width: 16.6666%;
+  padding: 0 20px;
+  line-height: 2;
+  opacity: .6;
+}
+.profit .profitbg li.top {
+  margin-top: 200px;
+}
+.profit .profitbg li.p-bottom {
+  margin-top: 120px;
+}
+.s-section4 {
+  width: 100%;
+  height: 100%;
+}
+.s-section4 img {
+  width: 100%;
+  height: 100%;
+}

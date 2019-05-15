@@ -1,0 +1,110 @@
+.fied {
+  background: #2d2b2b;
+}
+#mu-header {
+  background: #061f3e;
+}
+.box {
+  background: #061f3e;
+}
+.banner {
+  width: 100%;
+  height: 650px;
+  background: #061f3e;
+  background-size: 100% 100%;
+}
+.banner .banner-cont {
+  width: 1000px;
+  margin: 0 auto ;
+  padding: 220px 0;
+}
+.banner .banner-left {
+  color: #fff;
+}
+.banner .banner-left h4 {
+  font-size: 38px;
+  font-weight: normal;
+}
+.banner .banner-left .banner-text {
+  font-size: 20px;
+  margin: 40px 0;
+}
+.banner .banner-left .lianxi {
+  display: inline-block;
+  padding: 10px  20px ;
+  border: 1px solid #fff;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+}
+.banner .banner-left .lianxi:hover {
+  background: #fff;
+}
+.banner .banner-right {
+  position: absolute;
+  top: 100px;
+}
+.c-section {
+  width: 100%;
+  height: 500px;
+}
+.c-box {
+  width: 1200px;
+  margin: auto;
+}
+.c-box .c-title {
+  text-align: center;
+  color: #333;
+  margin: 70px 0;
+}
+.c-box .c-title h4 {
+  display: inline-block;
+  font-size: 36px;
+  margin: 0 40px;
+}
+.c-box .c-title p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.c-box .cbox-ul li {
+  margin-right: 50px;
+  float: left;
+  width: 29%;
+  text-align: center;
+  color: #666;
+}
+.c-box .cbox-ul li img {
+  width: 100%;
+}
+.c-box .cbox-ul li .youxi {
+  margin-top: 20px;
+  font-size: 26px;
+}
+.c-section2 {
+  width: 100%;
+  height: 900px;
+  background: #2a2a2a;
+}
+.c-section2 .c-box .c-title {
+  color: #fff;
+  padding-top: 50px;
+}
+.c-section2 img {
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
+}
+.c-section3 {
+  width: 100%;
+  height: 850px;
+}
+.c-section3 .c-section3-img {
+  margin-top: 60px;
+}
+span {
+  display: inline-block;
+  width: 448px;
+  height: 2px;
+  background: #ccc;
+}

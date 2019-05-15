@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- <meta name="HandheldFriendly" content="true"> -->
+    <title>ERP/CRM系统开发</title>
+    <link rel="stylesheet" href="./src/css/base.css">
+    <link rel="stylesheet" href="./src/css/erp.css">
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./src/images/favicon.ico" />
+    <script src="./src/js/jquery-3.3.1.min.js"></script>
+    <script src="./src/js/bootstrap.min.js"></script>
+    <script src="./src/js/flexible-0.3.2.js"></script>
+</head>
+<style>
+
+</style>
+
+<body>
+    <!-- 导航 -->
+    <header id="mu-header" class=" " role="banner">
+        <div class="container">
+            <nav class="navbar navbar-default mu-navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="./src/images/logo.png" alt=""></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav mu-menu navbar-right">
+                            <li><a href="index.html">首页</a></li>
+                            <li><a id="service" href="#mu-service">产品及案例</a></li>
+                            <li><a href="news.html">资讯</a></li>
+                            <li><a href="lianxi.html">合作方式</a></li>
+                            <li><a href="about.html">关于我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="box" class="box">
+            <ul>
+                <li><a class="box-a" href="more.html">其他</a></li>
+                <li><a class="box-a" href="Chessgame.html">棋牌游戏</a></li>
+                <li><a class="box-a" href="shop.html">竞拍商城</a></li>
+                <li><a class="box-a" href="distribution.html">各种分销体系搭建</a></li>
+                <li><a class="box-a" href="social.html">社交软件开发</a></li>
+                <li><a class="box-a" href="qukuailian.html">区块链</a></li>
+                <li><a class="box-a" href="televise-live.html">直播</a></li>
+                <li><a class="box-a" href="video.html">短视频</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="banner-cont">
+            <div class="banner-left">
+                <h4>沙狐区块链场所</h4>
+                <p class="banner-text">全套源码授权，多终端应用，全球范围部署</p>
+                <a href="#" class="lianxi"> 联系我们 </a>
+            </div>
+            <div class="banner-right">
+                <img src="http://www.yunbaokj.com/public/images/currency/banner.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="seletion">
+            <ul class=" nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" class="a" aria-controls="home" role="tab"
+                        data-toggle="tab"><img src="./src/images/q-1.png" alt=""></a></li>
+                <li role="presentation"><a href="#profile" class="a" aria-controls="profile" role="tab"
+                        data-toggle="tab"><img src="./src/images/q-3.png" alt=""></a></li>
+                <li role="presentation"><a href="#profile1" class="a" aria-controls="profile1" role="tab"
+                        data-toggle="tab"><img src="./src/images/q-2.png" alt=""></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="div">
+        <div class="tab-content ">
+            <div role="tabpanel" class="tab-pane tab-box active" id="home">
+                <!-- 交易形式 -->
+                <div class="tab-seletion">
+                    <div class="s-title">
+                        <h4>交易形式</h4>
+                        <p>TRANSACTION FORM</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-3 xingshi-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">OTC场外交易</p>
+                            <p class="xingshi-p2">
+                                限价买入/卖出是指用户设置一个买入/卖出币的价格和数量，生成委托单，系统会自动撮合市场上的买单和卖单，一旦达到用户设置的价格便按照价格优先时间优先顺序自动成交。</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 xingshi-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">数字货币合约</p>
+                            <p class="xingshi-p2">
+                                限价买入/卖出是指用户设置一个买入/卖出币的价格和数量，生成委托单，系统会自动撮合市场上的买单和卖单，一旦达到用户设置的价格便按照价格优先时间优先顺序自动成交。</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 xingshi-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">数字货币期权</p>
+                            <p class="xingshi-p2">
+                                限价买入/卖出是指用户设置一个买入/卖出币的价格和数量，生成委托单，系统会自动撮合市场上的买单和卖单，一旦达到用户设置的价格便按照价格优先时间优先顺序自动成交。</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 xingshi-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">挖矿交易</p>
+                            <p class="xingshi-p2">
+                                限价买入/卖出是指用户设置一个买入/卖出币的价格和数量，生成委托单，系统会自动撮合市场上的买单和卖单，一旦达到用户设置的价格便按照价格优先时间优先顺序自动成交。</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 xingshi-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">DAPP数字货币轻钱包</p>
+                            <p class="xingshi-p2">
+                                限价买入/卖出是指用户设置一个买入/卖出币的价格和数量，生成委托单，系统会自动撮合市场上的买单和卖单，一旦达到用户设置的价格便按照价格优先时间优先顺序自动成交。</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 xingshi-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">积分互换</p>
+                            <p class="xingshi-p2">
+                                限价买入/卖出是指用户设置一个买入/卖出币的价格和数量，生成委托单，系统会自动撮合市场上的买单和卖单，一旦达到用户设置的价格便按照价格优先时间优先顺序自动成交。</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 全新安全体系 -->
+                <div class="wai">
+                    <div class="tab-seletion2">
+                        <div class="s-title">
+                            <h4>全新安全体系</h4>
+                            <!-- <p>TRANSACTION FORM</p> -->
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-3 xingshi-text">
+                                <img src="./src/images/tmpicon.png" alt="">
+                                <p class="xingshi-p1">MD5+RSA加密</p>
+                                <p class="xingshi-p2">采用MD5+RSA（非对称加密算法）保障账号密码安全</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 xingshi-text">
+                                <img src="./src/images/tmpicon.png" alt="">
+                                <p class="xingshi-p1">身份认证</p>
+                                <p class="xingshi-p2">登录身份认证、提现身份认证</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 xingshi-text">
+                                <img src="./src/images/tmpicon.png" alt="">
+                                <p class="xingshi-p1">硬件令牌验证</p>
+                                <p class="xingshi-p2">硬件Ukey令牌验证充币提币</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 xingshi-text">
+                                <img src="./src/images/tmpicon.png" alt="">
+                                <p class="xingshi-p1">OSS+CDN静态加密</p>
+                                <p class="xingshi-p2">采用OSS+CDN静态文件加速机制保障数据文件安全</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 xingshi-text">
+                                <img src="./src/images/tmpicon.png" alt="">
+                                <p class="xingshi-p1">Google秘钥</p>
+                                <p class="xingshi-p2">Goole安全秘钥全方位渗透各个功能入口</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 xingshi-text">
+                                <img src="./src/images/tmpicon.png" alt="">
+                                <p class="xingshi-p1">服务监控</p>
+                                <p class="xingshi-p2">服务全面监控，保障服务故障及时响应，及时发起故障邮件通知</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 服务支持 -->
+                <div class="wai2">
+                    <div class="tab-seletion3">
+                        <div class="s-title">
+                            <h4>服务支持</h4>
+                            <p>我们用心走近客户，我们热心、专心、耐心、细心，我们拥有专业的软件研发团队、严谨的平台监控管理体系、专业的一站式服务团队。</p>
+                        </div>
+                        <div class="s-img">
+                            <img src="http://dc.hurongsoft.com/theme/proj_hrsd/images/templatetrad/fwimg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane tab-box " id="profile">
+                <!-- 应用形式 -->
+                <div class="p-seletion">
+                    <div class="p-title p-title2 ">
+                        <h4>应用形式</h4>
+                    </div>
+                    <div class="wrap">
+                        <div class="tile">
+                            <img src="./src/images/p-1.jpg" />
+                            <div class="text">
+                                <h1>区块链社交APP</h1>
+                                <!-- <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2> -->
+                                <p class="animate-text"> 好友互动，多种互动模式，提升用户活跃度；<br>
+                                    任务奖励，为应用引流，助其盈利；<br>
+                                    奖励兑换多样化满足不同用户需求，提升用户粘性；<br>
+                                    资产上链，保障奖励资产的安全和有效性 <br></p>
+                                <div class="dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tile">
+                            <img src="./src/images/p-1.jpg" />
+                            <div class="text">
+                                <h1>区块链宠物APP.</h1>
+                                <!-- <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2> -->
+                                <p class="animate-text">
+                                        基于区块链智能合约开发，<br> 将区块链技术与宠物养成游戏相结合， <br> 打造玩法多样的区块链宠物养成系统 <br>
+                                <div class="dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tile">
+                            <img src="./src/images/p-1.jpg" />
+                            <div class="text">
+                                <h1>区块链商城APP.</h1>
+                                <!-- <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2> -->
+                                <p class="animate-text">
+                                        商城结合区块链去中心化、可信任、不可篡改的特性，解决传统电商模式的诸多困扰，
+                                        在支付、激励、交易、营销等方面，极大地提升了电商模式的商业价值。
+                                <div class="dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <div class="tile">
+                            <img src="./src/images/p-1.jpg" />
+                            <div class="text">
+                                <h1>区块链游戏.</h1>
+                                <!-- <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2> -->
+                                <p class="animate-text"> 基于以太坊（Ethereum）DAPP智能合约的区块链游戏，可应用于区块链菠菜类、站岗类、棋牌类、宠物养成、加密名人、加密资产等区块链游戏场景。
+                                    <div class="dots">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="tile">
+                            <img src="./src/images/p-1.jpg" />
+                            <div class="text">
+                                <h1>区块链娱乐APP.</h1>
+                                <!-- <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2> -->
+                                <p class="animate-text"> 利用直播，短视频特点，对娱乐平台流量利用率不足进行完美补充。增加平台粉丝粘性，使客户的互动效率最大化，
+                                      趣味的随拍视频结合无压力的熟人社交，最终实现消费/购买转化或投放平台广告资源。
+                                    <div class="dots">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="tile">
+                            <img src="./src/images/p-1.jpg" />
+                            <div class="text">
+                                <h1>其他应用</h1>
+                                <!-- <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2> -->
+                                <p class="animate-text">
+                                    艺术品区块链交易系统，碳排放区块链交易系统 <br> 邮币卡区块链交易系统，玉石宝石区块链交易系统 <br> 知识产权区块链交易系统，房地产区块链交易系统<br>
+                                    <div class="dots">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 技术 -->
+                <div class="p-seletion p-seletion2">
+                    <div class="p-title">
+                        <h4>区块链技术</h4>
+                    </div>
+                    <div class="row p-bd">
+                        <div id='p-descs' class="col-xs-6 col-sm-4 p-desc">
+                            <img class="p-left" src="./src/images/indexicon1.png" alt="">
+                            <div class="p-right">
+                                <div class="p-right-title">
+                                    智能合约
+                                </div>
+                                <p class="p-right-tet">支持以信思化方式传播，验证，执行智能合约。以提高交易透明度及交易效率性。
+                                    同时可根据具体需求进行编等或者更改，降低了代码漏洞所造成的损失。</p>
+                            </div>
+                        </div>
+                        <div id='p-descs' class="col-xs-6 col-sm-4 p-desc">
+                            <img class="p-left" src="./src/images/indexicon2.png" alt="">
+                            <div class="p-right">
+                                <div class="p-right-title">
+                                    加密算法
+                                </div>
+                                <p class="p-right-tet">应用非对称加密算法，实现两个秘钥进行加密解密，可授权信息是否被公开。</p>
+                            </div>
+                        </div>
+                        <div id='p-descs' class="col-xs-6 col-sm-4 p-desc">
+                            <img class="p-left" src="./src/images/indexicon3.png" alt="">
+                            <div class="p-right">
+                                <div class="p-right-title">
+                                    隐私设定
+                                </div>
+                                <p class="p-right-tet">设置读取权限，只有被用户授权的信息才可以被公开获取。极大程度的保护了用户的隐私问题，避免了信息泄露的危险。</p>
+                            </div>
+                        </div>
+                        <div id='p-descs' class="col-xs-6 col-sm-4 p-desc">
+                            <img class="p-left" src="./src/images/indexicon4.png" alt="">
+                            <div class="p-right">
+                                <div class="p-right-title">
+                                    共识机制
+                                </div>
+                                <p class="p-right-tet">支持通过节点的投票，短时间内完成交易验证和确认提高了交易的速率，降低了人力，物力，财力的投入。</p>
+                            </div>
+                        </div>
+                        <div id='p-descs' class="col-xs-6 col-sm-4 p-desc">
+                            <img class="p-left" src="./src/images/indexicon51.png" alt="">
+                            <div class="p-right">
+                                <div class="p-right-title">
+                                    区块记录
+                                </div>
+                                <p class="p-right-tet">区块记录是根据用户不同需求设定不同流程，进行重要字段的记录。通过记录信息来确保交易的真实性。</p>
+                            </div>
+                        </div>
+                        <div id='p-descs' class="col-xs-6 col-sm-4 p-desc">
+                            <img class="p-left" src="./src/images/indexicon61.png" alt="">
+                            <div class="p-right">
+                                <div class="p-right-title">
+                                    区块浏览
+                                </div>
+                                <p class="p-right-tet">开发区块浏览器，通过输入的参数查询区块链上的交易数据。包括姓名，年龄，交易时间，以及合同等内容。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 应用特色 -->
+                <div class="tab-seletion p-seletion3">
+                    <div class="s-title">
+                        <h4>应用特色</h4>
+                    </div>
+                    <div class="row sys1">
+                        <div class="col-xs-6 col-sm-4 sys-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1"> 链上许愿墙</p>
+                            <p class="xingshi-p2">实现许愿上链，可查询到Hash值和区块高度</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 sys-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">配置灵活</p>
+                            <p class="xingshi-p2">支持人民币定价，生长奖励、收取规则等基础功能的灵活配置</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 sys-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">灵活的资源整合</p>
+                            <p class="xingshi-p2">支持多业务整合，使系统使用更方便、更灵活</p>
+                        </div>
+                    </div>
+                    <div class="row sys">
+                        <div class="col-xs-6 col-sm-3 sys-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">资金投入低</p>
+                            <p class="xingshi-p2">奖励引流，省去大量广告费用</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 sys-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">人力投入少</p>
+                            <p class="xingshi-p2">高配置化，自动执行，减少人力投入</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 sys-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">盈利能力强</p>
+                            <p class="xingshi-p2">多处盈利点，赚钱机会多</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 sys-text">
+                            <img src="http://www.yunbaokj.com/public/images/integral/t6.png" alt="">
+                            <p class="xingshi-p1">上线快</p>
+                            <p class="xingshi-p2">产品成熟，开发周期短</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- 服务支持 -->
+                <div class="wai2">
+                    <div class="tab-seletion3">
+                        <div class="s-title">
+                            <h4>服务支持</h4>
+                            <p>我们用心走近客户，我们热心、专心、耐心、细心，我们拥有专业的软件研发团队、严谨的平台监控管理体系、专业的一站式服务团队。</p>
+                        </div>
+                        <div class="s-img">
+                            <img src="http://dc.hurongsoft.com/theme/proj_hrsd/images/templatetrad/fwimg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane tab-box" id="profile1">
+                <!-- 针对市场，理财的应对方案 -->
+                <div class="m-seletion">
+                    <div class="num">
+                        <h3 class="m-title">针对市场，理财的应对方案</h3>
+                        <span></span> <span></span>
+                    </div>
+                    <div class="box1">
+                        <div class="prognamcot clearfix">
+                            <div class="prognmalef">
+                                <img src="./src/images/numicon1.png" alt="">
+                                <p>理财者痛点</p>
+                            </div>
+                            <ul class="prognamright">
+                                <li> <span></span>投资数字货币，希望获取高额收益，但是数币价格波动大，不好选择。</li>
+                                <li> <span></span>投资数字货币，希望获取高额收益，但是数币价格波动大，不好选择。</li>
+                                <li> <span></span>投资数字货币，希望获取高额收益，但是数币价格波动大，不好选择。</li>
+                            </ul>
+                        </div>
+                        <div class="prognamcot2 clearfix">
+                            <div class="prognmalef">
+                                <img src="./src/images/numicon2.png" alt="">
+                                <p class="prognmalef-p">理财者解决方案</p>
+                            </div>
+                            <ul class="prognamright prognamright1">
+                                <li> <span></span>期望获得高额收益，投资数币资产理财产品，不仅能获得定期产品收益， 还会有数币本身价值收益。</li>
+                                <li> <span></span>风险低，利润高，专业的管理团队对资金进行管理，保证产品的稳定收益。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="prognamcot clearfix">
+                            <div class="prognmalef">
+                                <img src="./src/images/numicon1.png" alt="">
+                                <p>平台痛点
+                                </p>
+                            </div>
+                            <ul class="prognamright">
+                                <li> <span></span>平台如何盈利？</li>
+                                <li> <span></span> 如何防止借款人跑单？
+                                </li>
+                                <li> <span></span>如何获取更多盈利点？</li>
+                            </ul>
+                        </div>
+                        <div class="prognamcot2 clearfix">
+                            <div class="prognmalef">
+                                <img src="./src/images/numicon2.png" alt="">
+                                <p class="prognmalef-p">平台解决方案</p>
+                            </div>
+                            <ul class="prognamright prognamright2">
+                                <li> <span></span>可通过收取每笔投资、提币和买入卖出的手续费等获取盈利。</li>
+                                <li> <span></span>在筹集到理财产品的投资资金后，可以使用多种风险措施。</li>
+                                <li> <span></span>除了收取相对应的手续费，还可以通过接入第三方投资商收取服务费，收取矿工费等制造盈利点。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-seletion2">
+                    <div class="num">
+                        <h3 class="m-title">针对市场，理财的应对方案</h3>
+                        <span></span> <span></span>
+                    </div>
+                    <div class=" box3 clearfix">
+                        <div class="col-xs-6 col-sm-3 sys3">
+                            <img src="./src/images/numicon6.png" alt="">
+                            <h4>币种行情</h4>
+                            <p>对接多种主流币接口，实时更新行业内币种行情用户。</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 sys3">
+                            <img src="./src/images/numicon5.png" alt="">
+                            <h4>理财产品配置</h4>
+                            <p>后台支持配置多种理财产品灵活便捷，配置方便。</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 sys3">
+                            <img src="./src/images/numicon7.png" alt="">
+                            <h4>支持多语言</h4>
+                            <p>平台支持7种国家语言，后台灵活应用配置。</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 sys3">
+                            <img src="./src/images/numicon8.png" alt="">
+                            <h4>安全策略</h4>
+                            <p>配置多种安全策略，全面保证账户信息安全。</p>
+                        </div>
+                    </div>
+                    <div class=" box3 clearfix">
+                        <div class="col-xs-6 col-sm-3 sys3">
+                            <img src="./src/images/numicon9.png" alt="">
+                            <h4>多种营销手段</h4>
+                            <p>结合多种营销机制,推广产品以及平台币,吸引更多用户。</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 sys3">
+                            <img src="./src/images/numicon10.png" alt="">
+                            <h4>快速充提币</h4>
+                            <p>支持多个入口快速充提币，后台审核灵活方便。</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 sys3">
+                            <img src="./src/images/numicon10.png" alt="">
+                            <h4>关注理财</h4>
+                            <p>实时关注理财产品相关动态掌握用户投资偏好。</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 sys3">
+                            <img src="./src/images/numicon6.png" alt="">
+                            <h4>消息模块管</h4>
+                            <p>全站内消息提醒，可支持发送短息以及站内信等方</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-seletion3">
+                    <div class="num">
+                        <h3 class="m-title">用户的安全，我们的承诺</h3>
+                        <span></span> <span></span>
+                    </div>
+                    <div class=" box4 clearfix">
+                        <div class="fl box-left">
+                            <h5>实名认证</h5>
+                            <span></span>
+                            <p class="box-txt">用户需要实名认证才可进行其他交易类操作。实名认证调第三方实名接口，校验实名信息的正确性。</p>
+                        </div>
+                        <div class="fr box-right">
+                            <img src="http://dc.hurongsoft.com/theme/proj_hrsd/images/numbi/tu1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box4 clearfix">
+                        <div class="box-right fl">
+                            <img src="http://dc.hurongsoft.com/theme/proj_hrsd/images/numbi/tu2.png" alt="">
+                        </div>
+                        <div class="box-left fr">
+                            <h5>登录资金密码设置</h5>
+                            <span></span>
+                            <p class="box-txt">登录和提币提供了密码、短信验证码、谷歌验证码三种校验方式。支持多级，单级验证形式切换。</p>
+                        </div>
+                    </div>
+                    <div class="box4 clearfix">
+                        <div class="box-left fl">
+                            <h5>黑名单</h5>
+                            <span></span>
+                            <p class="box-txt ">系统有黑名单监管机制，当发现用户的异常行为，可将其设置为黑名单用户，该用户将不能登录。</p>
+                        </div>
+                        <div class="box-right fr">
+                            <img src="http://dc.hurongsoft.com/theme/proj_hrsd/images/numbi/tu3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="num">
+                        <h3 class="m-title">适应市场的多种营销手段</h3>
+                        <span></span> <span></span>
+                    </div>
+                    <div class="box4 clearfix">
+                        <div class="box-right fl">
+                            <img src="http://dc.hurongsoft.com/theme/proj_hrsd/images/numbi/sybg.png" alt="">
+                        </div>
+                        <div class="box-left fr">
+                            <ul>
+                                <li class="box-li">
+                                    <h5>实名认证</h5>
+                                    <p class="box-txt">用户注册后通过身份证进行实名认证，保证用户合法权益，也会获得相应的数币红包</p>
+                                </li>
+                                <li class="box-li">
+                                    <h5>邀请好友</h5>
+                                    <p class="box-txt">选择合适的产品进行数币投资，可以使用红包优惠，即可获得更多收益</p>
+                                </li>
+                                <li class="box-li">
+                                    <h5>投资理财</h5>
+                                    <p class="box-txt">选择合适的产品进行数币投资，可以使用红包优惠，即可获得更多收益</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 服务支持 -->
+                <div class="wai2 m-seletion4">
+                    <div class="tab-seletion3">
+                        <div class="s-title">
+                            <h4>服务支持</h4>
+                            <p>我们用心走近客户，我们热心、专心、耐心、细心，我们拥有专业的软件研发团队、严谨的平台监控管理体系、专业的一站式服务团队。</p>
+                        </div>
+                        <!-- <div class="s-img">
+                                <img src="http://dc.hurongsoft.com/theme/proj_hrsd/images/templatetrad/fwimg.png" alt="">
+                            </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 在线咨询 -->
+      <!-- 在线咨询 -->
+      <div id="zixun">
+        <ul>
+            <li>
+                <a href="javascript:void(0)" class="weixin_area">
+                    <img src="./src/images/l02.png" width="47" height="49" class="shows" />
+                    <!-- <img src="./src/images/a.png" width="57" height="49" class="hides" /> -->
+                    <div class="weixin">
+                        <img src="./src/images/1555920982.png" width="145"/>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=3335418375&site=qq&menu=yes" target="_blank">
+                    <div class="hides" style="width:161px;display:none;" id="qq">
+                        <div class="hides" id="p1">
+                            <img src="./src/images/ll04.png">
+                        </div>
+                        <div class="hides" id="p2"><span style="color:#FFF;font-size:13px">800022936</span>
+                        </div>
+                    </div>
+                    <img src="./src/images/q1.gif" width="47" height="49" class="shows" />
+                </a>
+            </li>
+            <li id="tel">
+                <a href="javascript:void(0)">
+                    <div class="hides" style="width:161px;display:none;" id="tels">
+                        <div class="hides" id="p1">
+                            <img src="./src/images/ll05.png">
+                        </div>
+                        <div class="hides" id="p3"><span style="color:#FFF;font-size:12px">0551-65371998</span>
+                        </div>
+                    </div>
+                    <img src="./src/images/l05.png" width="47" height="49" class="shows" />
+                </a>
+            </li>
+            <li id="btn">
+                <a id="top_btn">
+                    <div class="hides" style="width:161px;display:none">
+                        <img src="./src/images/ll06.png" width="161" height="49" />
+                    </div>
+                    <img src="./src/images/l06.png" width="47" height="49" class="shows" />
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id='advisory' class="advisory">
+        <span id="remove" class="remove glyphicon glyphicon-remove "></span>
+        <div class="ad-text">
+            <div class="view">与我们专业产品经理直接沟通，您将得到优质的咨询服务</div>
+            <div class="now">
+            <a  id="now-1" class="now-1" href="#">稍后咨询</a>
+            <a class="now-2" href="http://wpa.qq.com/msgrd?v=3&uin=3335418375&site=qq&menu=yes" target="_blank">现在咨询</a>
+        </div>
+        </div>
+        
+    </div>
+    <!-- 获取源代码 -->
+    <div class="bottom">
+        <div class="huoqu">
+            只差一步，获取沙狐源码
+        </div>
+        <p class="laioxi">联系客服：400-400-400</p>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="copy">版权所有@2019沙狐 湘ICP备19007561</div>
+    </div>
+</body>
+<script src="./src/js/index.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            hide: true,
+        },
+    });
+</script>
+
+</html>

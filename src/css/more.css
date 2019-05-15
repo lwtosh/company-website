@@ -1,0 +1,146 @@
+.fied {
+  background: #2d2b2b;
+}
+.m-seletion {
+  width: 100%;
+  height: 920px;
+  background: url('https://heifeng.oss-cn-shenzhen.aliyuncs.com/heifeng_gw/images/mobile_APP/mobile_app_1_bg.jpg') no-repeat top center;
+}
+.m-box {
+  width: 1200px;
+  margin: auto;
+  padding: 260px 0;
+}
+.m-box .m-left {
+  float: left;
+  width: 50%;
+}
+.m-box .m-left img {
+  width: 100%;
+  height: 100%;
+}
+.m-box .m-rigth {
+  float: right;
+  width: 48%;
+  color: #fff;
+  text-align: right;
+}
+.m-box .m-rigth h4 {
+  font-size: 40px;
+}
+.m-box .m-rigth .rigth-p {
+  font-size: 16px;
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.m-box .m-rigth .rigth-p2 {
+  font-size: 14px;
+}
+.m-seletion2 {
+  background: url('https://heifeng.oss-cn-shenzhen.aliyuncs.com/heifeng_gw/images/mobile_APP/mobile_app_2_bg.jpg') no-repeat;
+  background-position: top center;
+  height: 920px;
+  padding: 100px 0;
+}
+.m-box2 {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.m-box2 .m-title {
+  color: #fff;
+}
+.m-box2 .m-title h5 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.m-box2 .m-title .m-p {
+  font-size: 16px;
+}
+.m-box2 .mImg {
+  text-align: center;
+  margin-top: 70px;
+  position: relative;
+}
+.flex {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  background: #ff9e06;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 26px;
+  padding: 0 20px;
+  padding-top: 35px;
+}
+.jiao {
+  top: 31px;
+  left: 225px;
+  width: 130px;
+  height: 130px;
+}
+.user {
+  top: -10px;
+  right: 200px;
+  width: 130px;
+  height: 130px;
+}
+.jian {
+  top: 224px;
+  left: 69px;
+}
+.ge {
+  top: 177px;
+  right: 8px;
+  width: 140px;
+  height: 140px;
+}
+.an {
+  bottom: 3px;
+  left: 233px;
+}
+.shu {
+  bottom: 61px;
+  right: 104px;
+  width: 140px;
+  height: 140px;
+  line-height: 30px;
+}
+.m-seletion3,
+.m-seletion4 {
+  width: 100%;
+  height: 950px;
+  position: relative;
+}
+.m-seletion3 img,
+.m-seletion4 img {
+  width: 100%;
+  height: 100%;
+}
+.m-box3,
+.m-box4 {
+  position: absolute;
+  color: #fff;
+  text-align: left;
+  z-index: 999;
+  width: 300px;
+  bottom: 400px;
+  right: 350px;
+}
+.m-box3 h4,
+.m-box4 h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.m-box3 .m-desc,
+.m-box4 .m-desc {
+  font-size: 16px;
+}
+.m-box4 {
+  width: 400px;
+  top: 300px;
+  left: 310px;
+}
